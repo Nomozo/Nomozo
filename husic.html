@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <script>
+        "use strict"
+
+function dayOfWeek (dayNumber) {
+    switch(dayNumber){
+        case 1:
+            return  "Dushanba";
+            case 2:
+      return  "Seshanba"; 
+      case 3:
+            return  "Chorshanba";
+            case 4:
+            return  "Payshanba";
+            case 5:
+            return  "Juma";
+            case 6:
+            return  "Shanba";
+            case 7:
+            return  "Yakshanaba";    
+    }
+}
+
+function testDayOfWeek() {
+    try {
+        var dayName = dayOfWeek(6);
+        alert(dayName);
+    }catch (e) {
+        alert(e);
+    }
+}
+    </script>
+<style>
+
+</style>
+</head>
+<body onload="testDayOfWeek()">
+    
+    
+
+</html>
